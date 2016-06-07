@@ -1625,7 +1625,7 @@ function Menu()
 		--end
 
 		-----------------------------------------------------------------------------------------------------
-		iARAM:addParam("info", "edited by ", SCRIPT_PARAM_INFO, "Husmeador12") 
+		iARAM:addParam("info", "edited by ", SCRIPT_PARAM_INFO, "Beryzinho") 
 		iARAM:addParam("info2", "iARAM Version : ", SCRIPT_PARAM_INFO, ToUpdate.Version)	
 end
 
@@ -3677,7 +3677,7 @@ function _Tech:LoadOtherSprites()
             table.insert(FolderOfSprites, createSprite(SPRITE_PATH .. "\\iARAM\\Logotype\\" .. i .. ".png"))
         else
             _AutoupdaterMsg("Downloading missing sprite in folder: Logotype " .. i .. " / 2, DO NOT RELOAD THE SCRIPT!")
-            DownloadFile("https://raw.githubusercontent.com/Husmeador12/Bol_Script/master/Sprites/" .. i .. ".png?no-cache=" .. math.random(1, 25000), SPRITE_PATH .. "iARAM//Logotype//" .. i .. ".png", function() DelayAction( function() self:LoadOtherSprites() end, 0.15) end)
+            DownloadFile("https://raw.githubusercontent.com/Beryzinho/Bol_Script/master/Sprites/" .. i .. ".png?no-cache=" .. math.random(1, 25000), SPRITE_PATH .. "iARAM//Logotype//" .. i .. ".png", function() DelayAction( function() self:LoadOtherSprites() end, 0.15) end)
             FolderOfSprites = { }
             return;
         end
