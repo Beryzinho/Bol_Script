@@ -244,12 +244,12 @@ end
 
 -----[[ Auto Update Globals ]]------
 local ToUpdate = {}
-ToUpdate.Version = 8.26
-ToUpdate.Update_Change_Log = "Update to 5.24"
+ToUpdate.Version = 1.0
+ToUpdate.Update_Change_Log = "Update to 1.0"
 ToUpdate.UseHttps = true
 ToUpdate.Host = "raw.githubusercontent.com"
-ToUpdate.VersionPath = "/Husmeador12/Bol_Script/master/version/iARAM.version"
-ToUpdate.ScriptPath =  "/Husmeador12/Bol_Script/master/iARAM.lua"
+ToUpdate.VersionPath = "/Beryzinho/Bol_Script/master/version/iARAM.version"
+ToUpdate.ScriptPath =  "/Beryzinho/Bol_Script/master/iARAM.lua"
 ToUpdate.SavePath = SCRIPT_PATH.._ENV.FILE_NAME
 ToUpdate.CallbackUpdate = function(NewVersion,OldVersion) _AutoupdaterMsg("Updated to "..NewVersion..". Press F9 to reload") end
 ToUpdate.CallbackNoUpdate = function(OldVersion) _AutoupdaterMsg("Notes: "..ToUpdate.Update_Change_Log.."") end
