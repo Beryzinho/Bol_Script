@@ -12,7 +12,7 @@ Husmeador
 iARAM Script
 ==========
 ![gui](https://camo.nulled.io/?url=http://i.imgur.com/qALmHig.png)
-See the [iARAM.lua](https://github.com/Husmeador12/Bol_Script/blob/master/iARAM.lua)
+See the [iARAM.lua](https://github.com/Beryzinho/Bol_Script/blob/master/iARAM.lua)
 
 ####Features:
  
